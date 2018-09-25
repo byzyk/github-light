@@ -1,0 +1,38 @@
+{
+  "name": "github-light",
+  "version": "0.0.1",
+  "description": "Github Light UI.",
+  "author": "Bohdan Khodakivskyi <bohdan.kh@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "antd": "^3.4.0",
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1",
+    "react-redux": "^5.0.7",
+    "react-scripts-ts": "2.16.0",
+    "redux": "^3.7.2",
+    "redux-observable": "^0.18.0",
+    "rxjs": "^5.5.8"
+  },
+  "scripts": {
+    "start": "react-app-rewired start --scripts-version react-scripts-ts",
+    "build": "react-app-rewired build --scripts-version react-scripts-ts",
+    "test": "npm run lint",
+    "lint": "tslint -p tsconfig.json -c tslint.json 'src/**/*.{ts,tsx}'",
+    "eject": "react-scripts-ts eject"
+  },
+  "devDependencies": {
+    "@types/jest": "^22.2.2",
+    "@types/react": "^16.3.5",
+    "@types/react-dom": "^16.0.4",
+    "@types/react-redux": "^5.0.15",
+    "@types/redux": "^3.6.0",
+    "less-vars-to-js": "^1.2.1",
+    "react-app-rewire-less": "^2.1.1",
+    "react-app-rewired": "^1.5.2",
+    "ts-import-plugin": "^1.4.4",
+    "tslint": "^5.10.0",
+    "tslint-config-prettier": "^1.13.0",
+    "typescript": "^2.8.1"
+  }
+}

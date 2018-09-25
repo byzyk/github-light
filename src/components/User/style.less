@@ -1,0 +1,23 @@
+.user {
+  display: flex;
+
+  &-details {
+    margin-left: 25px;
+  }
+
+  &-name {
+    text-transform: capitalize;
+
+    small {
+      text-transform: none;
+      color: @mute-color;
+    }
+  }
+
+  &-error {
+    text-transform: uppercase;
+    color: @mute-color;
+    text-align: center;
+    padding: 65px 0 64px;
+  }
+}
