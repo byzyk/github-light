@@ -1,8 +1,8 @@
 import { Epic } from 'redux-observable';
 import http from 'utils/http';
 import { IRootState, IRootAction } from 'store/modules/root';
-import { fetchUser } from './';
 import { fetchRepos } from 'store/modules/repos';
+import { fetchUser } from './';
 
 const { REACT_APP_API } = process.env;
 

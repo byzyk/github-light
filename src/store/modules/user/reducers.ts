@@ -8,10 +8,9 @@ export interface IUserState {
   readonly error: string | null;
 }
 
-export const userReducer = (
-  state: IUserState = { isLoading: false, data: null, error: null },
-  action: IAction,
-) => {
+export const initState = { isLoading: false, data: null, error: null };
+
+export const userReducer = (state: IUserState = initState, action: IAction) => {
   switch (action.type) {
     case fetchUser.request().type:
       return { ...state, isLoading: true, error: null };
